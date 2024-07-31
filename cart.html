@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Vending Machine.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <title>Vending Machine</title>
+  </head>
+  <body>
+    <div class="bg-white min-h-screen">
+      
+      <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 lg:max-w-7xl lg:px-8">
+        
+    <a href="productBox.html" class="mx-4 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg>
+    </a>
+        <h2 class="text-2xl  font-extrabold font-mono tracking-tight text-gray-900">Shopping cart</h2>
+
+        <div class="mt-8">
+          <div class="flow-root">
+            <ul role="list" class="-my-6 divide-y divide-gray-200">
+              
+
+
+              
+    <li class="flex py-6">
+      <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+        <img
+          alt="Image"
+          src="/assets/VendingMachine.png"
+          class="h-full w-full object-cover object-center"
+        />
+      </div>
+
+      <div class="ml-4 flex flex-1 flex-col">
+        <div>
+          <div class="flex justify-between text-base font-medium text-gray-900">
+            <h3>
+              <a href="{product.href}">Nice one</a>
+            </h3>
+            <p class="ml-4">Rs. 100</p>
+          </div>
+          <!-- <p class="mt-1 text-sm text-gray-500">{product.color}</p> -->
+        </div>
+        <div class="flex flex-1 items-end justify-between text-sm">
+          <p class="text-gray-500">Qty 1</p>
+          
+          <div class="flex pl-8">
+            
+            <button
+              class='cursor-pointer'
+            >+</button>
+            <button
+              class='cursor-pointer'
+            >-</button>
+          </div>
+          <div class="flex">
+            <button type="button" class="font-medium text-indigo-600 hover:text-indigo-500">
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="flex py-6">
+      <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+        <img
+          alt="Image"
+          src="/assets/VendingMachine.png"
+          class="h-full w-full object-cover object-center"
+        />
+      </div>
+
+      <div class="ml-4 flex flex-1 flex-col">
+        <div>
+          <div class="flex justify-between text-base font-medium text-gray-900">
+            <h3>
+              <a href="{product.href}">Nice one</a>
+            </h3>
+            <p class="ml-4">Rs. 100</p>
+          </div>
+          <!-- <p class="mt-1 text-sm text-gray-500">{product.color}</p> -->
+        </div>
+        <div class="flex flex-1 items-end justify-between text-sm">
+          <p class="text-gray-500">Qty 1</p>
+          
+          <div class="flex pl-8">
+            
+            <button
+              class='cursor-pointer'
+            >+</button>
+            <button
+              class='cursor-pointer'
+            >-</button>
+          </div>
+          <div class="flex">
+            <button type="button" class="font-medium text-indigo-600 hover:text-indigo-500">
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-200 px-4 py-6 sm:px-6">
+          <div class="flex justify-between text-base font-medium text-gray-900">
+            <p>Subtotal</p>
+            <p>Rs. 300</p>
+          </div>
+          <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
+          <div class="mt-6">
+            <a
+              href="#checkout"
+              onclick="checkout()"
+              class="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+            >
+              Checkout
+            </a>
+          </div>
+          <div class="mt-6 flex justify-center text-center text-sm text-gray-500">
+            <p>
+              <a href="productBox.html"
+                type="button"
+                class="font-medium text-indigo-600 hover:text-indigo-500"
+              >
+                Continue Shopping
+                <span aria-hidden="true"> &rarr;</span>
+            </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+  </body>
+</html>
