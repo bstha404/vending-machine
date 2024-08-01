@@ -1,2 +1,3 @@
 # vending-machine
-![image](https://github.com/user-attachments/assets/3a71b474-5915-42b4-8909-22c4010fdac6)
+![image](https://github.com/user-attachments/assets/8915cf11-c4e7-4604-9ca2-b784629e3fd7)
+
